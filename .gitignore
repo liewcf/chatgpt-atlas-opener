@@ -1,0 +1,9 @@
+# macOS
+.DS_Store
+
+# Distribution files
+*.zip
+
+# Chrome extension artifacts
+*.crx
+*.pem

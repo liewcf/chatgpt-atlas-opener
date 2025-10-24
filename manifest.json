@@ -1,0 +1,27 @@
+{
+  "manifest_version": 3,
+  "name": "ChatGPT Atlas Opener",
+  "description": "Open the current page in the ChatGPT Atlas macOS app.",
+  "version": "1.0.0",
+  "permissions": [
+    "tabs",
+    "nativeMessaging"
+  ],
+  "action": {
+    "default_title": "Open in ChatGPT Atlas"
+  },
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  },
+  "options_page": "options.html",
+  "commands": {
+    "open-in-atlas": {
+      "suggested_key": {
+        "default": "Alt+Shift+A",
+        "mac": "Command+Shift+A"
+      },
+      "description": "Open the current tab in ChatGPT Atlas"
+    }
+  }
+}

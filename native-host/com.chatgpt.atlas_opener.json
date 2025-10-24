@@ -1,0 +1,9 @@
+{
+  "name": "com.chatgpt.atlas_opener",
+  "description": "Native messaging host for ChatGPT Atlas Opener",
+  "path": "PATH_PLACEHOLDER",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://EXTENSION_ID_PLACEHOLDER/"
+  ]
+}
